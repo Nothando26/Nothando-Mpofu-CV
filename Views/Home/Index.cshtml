@@ -1,0 +1,123 @@
+﻿@model MyCV.ViewModel.CvViewModel
+
+@{
+    ViewData["Title"] = "Nothando Mpofu - CV";
+}
+
+<div class="container mt-5 mb-5">
+
+    <!-- HEADER -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">Nothando Mpofu</h1>
+        <h5>Final year IT Student, Aspiring Data Analyst</h5>
+        <p>
+            st10440515@myemeris.edu.za | 073 909 5372
+        </p>
+       
+
+    </div>
+
+    <!-- PROFILE -->
+    <section class="mb-4">
+        <h4 class="fw-bold border-bottom pb-2">Profile</h4>
+        <p>
+            I am a final-year Computer Science student with a strong passion for data analytics and data-driven decision-making.
+            I have skills in programming, statistics, and data visualization, and I enjoy transforming raw data into actionable insights
+            to solve real-world problems.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="mb-4">
+        <h4 class="fw-bold border-bottom pb-2">Skills</h4>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h6 class="fw-bold">Languages</h6>
+                <ul>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>HTML & CSS</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="fw-bold">Tools</h6>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>Microsoft SQL Server</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="fw-bold">Frameworks</h6>
+                <ul>
+                    <li>ASP.NET Core</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="mb-4">
+        <h4 class="fw-bold border-bottom pb-2">Projects</h4>
+
+        <div class="mb-3">
+            <p class="text-muted">08/2025 – 11/2025</p>
+            <h6 class="fw-bold">Contract Monthly Claim System</h6>
+            <p>
+                I developed the Contract Monthly Claim System (CMCS), a role-based web application built with ASP.NET MVC and C#
+                to streamline the lecturer claims process. The system allows lecturers to submit worked hours and supporting documents,
+                while coordinators, academic managers, and HR review, approve, and generate PDF reports for approved claims.
+                Using Entity Framework Core and SQL Server, I implemented secure authentication, role-based dashboards,
+                and real-time claim status tracking with visual indicators.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section class="mb-4">
+        <h4 class="fw-bold border-bottom pb-2">Professional Experience</h4>
+
+        <div class="mb-3">
+            <p class="text-muted">10/2025 – Present | Roodepoort, Johannesburg</p>
+            <h6 class="fw-bold">Arts and Culture Representative – Student Life Squad</h6>
+            <p>
+                I serve as an Arts and Culture Representative in the Student Life Squad, promoting student wellbeing
+                by helping students balance academic and social life. I oversee clubs and societies and assist in
+                planning on- and off-campus events.
+            </p>
+        </div>
+
+        <div class="mb-3">
+            <p class="text-muted">11/2025 – 01/2026 | Midrand, Johannesburg</p>
+            <h6 class="fw-bold">Part-Time Waitress</h6>
+            <p>
+                I worked as a Casual Waitress at Nando’s, providing customer service in a fast-paced environment,
+                handling orders and payments while ensuring a positive dining experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+        <h4 class="fw-bold border-bottom pb-2">Education</h4>
+        <p class="text-muted">02/2024 – 12/2026 | Roodepoort, South Africa</p>
+        <h6 class="fw-bold">
+            Bachelor’s of Computer and Information Sciences in Application Development
+        </h6>
+        <p>Emeris University</p>
+    </section>
+
+</div>
+<div class="text-center mb-4">
+    <a asp-action="DownloadCv" class="btn btn-dark">
+        Download PDF Version
+    </a>
+</div>

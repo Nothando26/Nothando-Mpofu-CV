@@ -1,0 +1,7 @@
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\MyCV.exe
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\appsettings.Development.json
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\appsettings.json
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\MyCV.dll
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\MyCV.deps.json
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\MyCV.runtimeconfig.json
+C:\Users\lab_services_student\Desktop\PROG7311\MyCV\MyCV\publish\MyCV.pdb
